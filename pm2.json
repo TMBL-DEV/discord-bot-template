@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "discord-bot-template",
+			"script": "node",
+			"args": "dist/index.js"
+    }
+  ]
+}

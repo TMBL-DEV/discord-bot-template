@@ -1,0 +1,20 @@
+{
+  "name": "minecraft-locations-bot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/da-tokkies/slash-commands.git",
+  "author": "Tim <timblommesteijn@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "npx tsc",
+    "lint": "npx eslint --ext .ts ./src",
+    "lint:fix": "npx eslint --ext .ts ./src --fix"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.25.2",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0"
+  }
+}
