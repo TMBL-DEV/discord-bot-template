@@ -1,5 +1,6 @@
-# Minecraft-locations-bot
-This bot uses a the regular discord packages for saving minecraft locations in a mysql database.
+# Discod bot template
+This is a default template for creating a discord bot thats focussed on minimalism. 
+It only has the default discord packages installed and its easy to setup and expand uppon.
 
 ## Installation
 ```sh
